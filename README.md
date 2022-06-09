@@ -16,6 +16,6 @@ pip install eulers-method==0.0.2
 ```python
 from eulers_method import EulersMethod
 equation = "y'=2/5*x*y"
-euler = EulersMethod.EulersMethod(equation=equation, x0=1, y0=3)
+euler = EulersMethod.EulersMethod(equation = equation, x0 = 1, y0 = 3)
 res = euler.execute(x_stop=5, step_size = 0.1, iterations = 1000)
 ```
